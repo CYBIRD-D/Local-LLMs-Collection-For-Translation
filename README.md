@@ -147,7 +147,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | jenerallee78/Ministral-3-14B-abliterated | General | Ministral | [GGUF](https://huggingface.co/mradermacher/Ministral-3-14B-abliterated-GGUF) | [Original](https://huggingface.co/jenerallee78/Ministral-3-14B-abliterated) |
 | mistralai/Mistral-Nemo-Instruct-2407 | General | Mistralnemo | [GGUF](https://huggingface.co/MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF) | [Original](Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24) |
 | Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24 | **Russian⇌EN** | Mistralnemo | [GGUF](https://huggingface.co/mradermacher/Vikhr-Nemo-12B-Instruct-R-21-09-24-GGUF) | [Original](Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24) |
-| shisa-ai/shisa-v2-mistral-nemo-12b | **JP⇌EN** | Mistralnemo | [GGUF](https://huggingface.co/mradermacher/shisa-v2-mistral-nemo-12b-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) |
+| **★shisa-ai/shisa-v2-mistral-nemo-12b** | **JP⇌EN** | Mistralnemo | [GGUF](https://huggingface.co/mradermacher/shisa-v2-mistral-nemo-12b-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) |
 
 
 [^7]: 31 Ugandan languages `Acoli Adhola Alur Bari Chiga Gwere Kumam Karamojong Kakwa Kinyarwanda Konzo Kupsabiny Lango (Uganda) Lugbara Saamia Aringa Ganda Ma'di Masaaba Nyole Nyankole Nyoro Pokangá Gungu Ruuli Amba (Uganda); Swahili (macrolanguage); Teso Talinga-Bwisi Tooro Soga` + English
