@@ -124,6 +124,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | aisingapore/Qwen-SEA-LION-v4-8B-VL | **ENG+7key SEA languages**[^4] | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Qwen-SEA-LION-v4-8B-VL-GGUF) | [Original](https://huggingface.co/aisingapore/Qwen-SEA-LION-v4-8B-VL) | 
 | **★SakuraLLM/Sakura-GalTransl-7B-v3.7** | **JP⇌CHINESE** | Qwen2.5 | [GGUF](https://huggingface.co/SakuraLLM/Sakura-GalTransl-7B-v3.7) | [Original](https://huggingface.co/SakuraLLM/Sakura-GalTransl-7B-v3.7) |  
 | **★mistralai/Ministral-3-8B-Instruct-2512** | General | Ministral3 | [GGUF](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF) | [Original](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512) | 
+| lenML/aya-expanse-8b-abliterated | General | aya23 | [GGUF](https://huggingface.co/mradermacher/aya-expanse-8b-abliterated-GGUF) | [Original](https://huggingface.co/lenML/aya-expanse-8b-abliterated) |
 | **★Unbabel/Tower-Plus-9B** | General | Gemma2 | [GGUF](https://huggingface.co/mradermacher/Tower-Plus-9B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-9B) |
 | KORMo-Team/KORMo-10B-sft | **Korean⇌EN** | KORMo | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) |
 
