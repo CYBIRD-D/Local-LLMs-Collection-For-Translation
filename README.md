@@ -14,12 +14,12 @@ Most models below are finetune of
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
 
 Explaination can be found here:
-- [**FAQ-Frequent Ask Questions**](FAQ_EN.md)
+- [**FAQ-Frequent Ask Questions**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md)
   - [Models & Performance](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md#models--performance)
 
 ## Must Read
 Unless you had the knowledge.
-- [LLM VRAM USAGE LISTS](OtherModels_gguf.md)
+- [LLM VRAM USAGE LISTS](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md)
   - [**GGUF quantization types & relative quality**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
 
 - [**Deploy local models**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/README_en.md#deploying-local-models)
@@ -29,7 +29,7 @@ Unless you had the knowledge.
 ### Highly Recommend to Read
 - [**How to choose an LLM? Online vs Local**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
   - [Local models](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/README_en.md#local-models-open-weight--open-source)
-- [**FAQ-Frequent Ask Questions**](FAQ_EN.md)
+- [**FAQ-Frequent Ask Questions**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md)
 
 
 ## Recommend models
@@ -40,7 +40,7 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf** </br>
 
   - **Qwen3**: base model family
   - **8B**: parameter count. Common sizes: 4B±; 8B±; 14B±; 30B±; 70B±; 100B+
-    - For VRAM & params, see [**LLM VRAM USAGE LISTS**](OtherModels_gguf.md)
+    - For VRAM & params, see [**LLM VRAM USAGE LISTS**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md)
       
   - **Thinking**: indicates a thinking-mode model (not all thinking models are labeled).
   
@@ -50,7 +50,7 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf** </br>
     - You’ll also see ***uncensored*/*NSFW*/*heretic*/*amoral*/*evil***, etc.
    
   - **Q8_0 (gguf)**: a llama.cpp quantization type. See the link:
-    - [**LLM VRAM USAGE LISTS**](OtherModels_gguf.md) 
+    - [**LLM VRAM USAGE LISTS**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality) 
       - **GGUF Quantization types & relative quality**
 
 -------
