@@ -145,7 +145,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | **★mistralai/Ministral-3-8B-Instruct-2512** | General | Ministral3 | [GGUF](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF) | [Original](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512) | 
 | lenML/aya-expanse-8b-abliterated | General | aya23 | [GGUF](https://huggingface.co/mradermacher/aya-expanse-8b-abliterated-GGUF) | [Original](https://huggingface.co/lenML/aya-expanse-8b-abliterated) |
 | **★Unbabel/Tower-Plus-9B** | General | Gemma2 | [GGUF](https://huggingface.co/mradermacher/Tower-Plus-9B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-9B) |
-| KORMo-Team/KORMo-10B-sft </br> LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct | **Korean⇌EN** | KORMo </br> EXAONE-3.5 | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) </br> [GGUF](https://huggingface.co/models?other=base_model:finetune:LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) </br> [Original](https://huggingface.co/mradermacher/EXAONE-3.5-7.8B-Instruct-GGUF) |
+| KORMo-Team/KORMo-10B-sft </br> LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct </br> skt/A.X-4.0-Light | **Korean⇌EN** | KORMo </br> EXAONE-3.5 </br> Qwen2.5 | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) </br> [GGUF](https://huggingface.co/mradermacher/EXAONE-3.5-7.8B-Instruct-GGUF) </br> [GGUF](https://huggingface.co/mykor/A.X-4.0-Light-gguf) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) </br> [Original](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct) </br> [Original](https://github.com/SKT-AI/A.X-4.0/tree/main) |
 
 ----------
 
