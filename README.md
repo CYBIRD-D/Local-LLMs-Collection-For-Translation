@@ -2,6 +2,9 @@
 This is only a **small list** of Collection for llms under 14B which are used for translation.</br>
 Depends on your languages/taste/usage/content, the results & performances **may or may not** meet your expectation.</br>
 
+Explaination can be found here:
+- [Models & Performance](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md#models--performance)
+
 <details>
  <summary>   
 Most models below are finetune of Qwen/Gemma/Mistral 
@@ -19,11 +22,6 @@ Most models below are finetune of Qwen/Gemma/Mistral
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
 
 </details>
-
-Explaination can be found here:
-- [Models & Performance](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md#models--performance)
-
-
 
 ## Must Read
 Unless you had the knowledge.
