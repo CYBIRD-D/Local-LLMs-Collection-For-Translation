@@ -2,7 +2,12 @@
 This is only a small list of Collection for llm models under 14B which are used for translation.</br>
 Depends on your languages/taste/usage/content, the results & performances **may or may not** meet your expectation.</br>
 
-Most models below are finetune of 
+<details>
+ <summary>   
+Most models below are finetune of Qwen/Gemma/Mistral 
+
+</summary>
+
 - Qwen
   - [Qwen 3 1.7B/4B/8B/14B](https://huggingface.co/collections/Qwen/qwen3)
   - [QWEN 3VL 2B/4B/8B](https://huggingface.co/collections/Qwen/qwen3-vl)
@@ -13,8 +18,12 @@ Most models below are finetune of
   - [Ministral 3B/8B/14B](https://huggingface.co/collections/mistralai/ministral-3)
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
 
+</details>
+
 Explaination can be found here:
 - [Models & Performance](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md#models--performance)
+
+
 
 ## Must Read
 Unless you had the knowledge.
@@ -25,16 +34,26 @@ Unless you had the knowledge.
 
 -----
 
+<details>
+ <summary>   
+   
 ### Highly Recommend to Read
+</summary>
+
 - [**How to choose an LLM? Online vs Local**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
   - [Local models](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/README_en.md#local-models-open-weight--open-source)
 - [**FAQ-Frequent Ask Questions**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md)
 
+</details>
 
 ## Recommend models
 Before check the list, you need to understand some basic knowledge.
-- **How to read model names?** </br>
-Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf** </br>
+<details>
+ <summary>   
+
+### **How to read model names?** </br>
+Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf**
+</summary>
 (This model name is hypothetical for illustration.)</br>
 
   - **Qwen3**: base model family
@@ -50,6 +69,8 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf** </br>
    
   - **Q8_0 (gguf)**: a llama.cpp quantization type. See the link:
     - [**GGUF quantization types & relative quality**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
+
+</details>
 
 -------
 > Note: </br>
@@ -68,7 +89,7 @@ All models are choosen based on **community reports, downloads, likes and finetu
 
 | Model Name | Languages | Base Model Family | Link(GGUF) | Link(Original Page) |
 |---|---:|---:|---:|---:|
-| shisa-ai/shisa-v2.1-lfm2-1.2b </br> shisa-ai/shisa-v2.1-llama3.2-3b                         | **JP⇌EN** | LFM2 </br> Llama3.2 | [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-lfm2-1.2b-GGUF) </br> [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-llama3.2-3b-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b) </br> [Original](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b) |
+| shisa-ai/shisa-v2.1-lfm2-1.2b </br> shisa-ai/shisa-v2.1-llama3.2-3b </br> LiquidAI/LFM2.5-1.2B-JP | **JP⇌EN** | LFM2 </br> Llama3.2 </br> LFM2.5 | [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-lfm2-1.2b-GGUF) </br> [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-llama3.2-3b-GGUF) </br> [GGUF](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b) </br> [Original](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b) </br> [Original](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP) |
 | tencent/HY-MT1.5-1.8B                             | General | HY-MT1.5 | [GGUF](https://huggingface.co/mradermacher/HY-MT1.5-1.8B-GGUF) | [Original](https://huggingface.co/tencent/HY-MT1.5-1.8B) |
 | Unbabel/Tower-Plus-2B                             | General | Gemma2 | [GGUF](https://huggingface.co/DZgas/Tower-Plus-2B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-2B) |
 | prithivMLmods/Qwen3-VL-2B-Instruct-abliterated-v1 | **EN**⇌XX [^1] | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Qwen3-VL-2B-Instruct-abliterated-GGUF) | [Original](https://huggingface.co/prithivMLmods/Qwen3-VL-2B-Instruct-abliterated-v1) |
