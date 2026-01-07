@@ -88,6 +88,7 @@ All models are choosen based on **community reports, downloads, likes and finetu
 | Model Name | Languages | Base Model Family | Link(GGUF) | Link(Original Page) |
 |---|---:|---:|---:|---:|
 | shisa-ai/shisa-v2.1-lfm2-1.2b </br> shisa-ai/shisa-v2.1-llama3.2-3b </br> LiquidAI/LFM2.5-1.2B-JP | **JP⇌EN** | LFM2 </br> Llama3.2 </br> LFM2.5 | [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-lfm2-1.2b-GGUF) </br> [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-llama3.2-3b-GGUF) </br> [GGUF](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b) </br> [Original](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b) </br> [Original](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP) |
+| LGAI-EXAONE/EXAONE-4.0-1.2B                       | **Spanish⇌EN⇌Korean** | EXAONE4.0 | [GGUF](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF) | [Original](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B) |
 | tencent/HY-MT1.5-1.8B                             | General | HY-MT1.5 | [GGUF](https://huggingface.co/mradermacher/HY-MT1.5-1.8B-GGUF) | [Original](https://huggingface.co/tencent/HY-MT1.5-1.8B) |
 | Unbabel/Tower-Plus-2B                             | General | Gemma2 | [GGUF](https://huggingface.co/DZgas/Tower-Plus-2B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-2B) |
 | prithivMLmods/Qwen3-VL-2B-Instruct-abliterated-v1 | **EN**⇌XX [^1] | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Qwen3-VL-2B-Instruct-abliterated-GGUF) | [Original](https://huggingface.co/prithivMLmods/Qwen3-VL-2B-Instruct-abliterated-v1) |
@@ -144,7 +145,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | **★mistralai/Ministral-3-8B-Instruct-2512** | General | Ministral3 | [GGUF](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF) | [Original](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512) | 
 | lenML/aya-expanse-8b-abliterated | General | aya23 | [GGUF](https://huggingface.co/mradermacher/aya-expanse-8b-abliterated-GGUF) | [Original](https://huggingface.co/lenML/aya-expanse-8b-abliterated) |
 | **★Unbabel/Tower-Plus-9B** | General | Gemma2 | [GGUF](https://huggingface.co/mradermacher/Tower-Plus-9B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-9B) |
-| KORMo-Team/KORMo-10B-sft | **Korean⇌EN** | KORMo | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) |
+| KORMo-Team/KORMo-10B-sft </br> LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct | **Korean⇌EN** | KORMo </br> EXAONE-3.5 | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) </br> [GGUF](https://huggingface.co/models?other=base_model:finetune:LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) </br> [Original](https://huggingface.co/mradermacher/EXAONE-3.5-7.8B-Instruct-GGUF) |
 
 ----------
 
