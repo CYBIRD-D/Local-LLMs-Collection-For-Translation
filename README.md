@@ -60,7 +60,7 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf**
       
   - **Thinking**: indicates a thinking-mode model (not all thinking models are labeled).
   
-  - **2507**: time tag (2025/07), often minor updates.
+  - **2507**: time tag (2025/07), often some updates.
   
   - **abliterated**: a way/style of “**de-safety-filtered**” fine-tune; typically means moderation is reduced or removed.
     - You’ll also see ***uncensored*/*NSFW*/*heretic*/*amoral*/*evil***, etc.
