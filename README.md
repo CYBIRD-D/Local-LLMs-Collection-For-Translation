@@ -14,8 +14,7 @@ Most models below are finetune of
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
 
 Explaination can be found here:
-- [**FAQ-Frequent Ask Questions**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md)
-  - [Models & Performance](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md#models--performance)
+- [Models & Performance](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md#models--performance)
 
 ## Must Read
 Unless you had the knowledge.
@@ -50,8 +49,7 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf** </br>
     - You’ll also see ***uncensored*/*NSFW*/*heretic*/*amoral*/*evil***, etc.
    
   - **Q8_0 (gguf)**: a llama.cpp quantization type. See the link:
-    - [**LLM VRAM USAGE LISTS**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality) 
-      - **GGUF Quantization types & relative quality**
+    - [**GGUF quantization types & relative quality**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
 
 -------
 > Note: </br>
@@ -60,7 +58,8 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf** </br>
 >     - For example: Qwen3-4B < Qwen3-8B < Qwen3-14B < Qwen3-32B
 > 3. Translation quality also depends on the **quality & amount of training data** on certain languages. 
 
-**Only download GGUF file** unless you're not using llama.cpp (that includes LM Studio, Ollama, Kobold, etc.)
+**Only download GGUF file** unless you're not using llama.cpp (that includes LM Studio, Ollama, Kobold, etc.) </br>
+For Mac with Apple silicon (M series) check here [LM Studio with Apple MLX](https://lmstudio.ai/blog/lmstudio-v0.3.4)
 
 ### 0~3B (Vram≤4GB)
 LLMs at this scale usually have poor performance.</br>
