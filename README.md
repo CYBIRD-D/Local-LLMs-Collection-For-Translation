@@ -1,5 +1,5 @@
 # Local LLMs Collection For Translation
-This is only a **small list** of Collection for llm models under 14B which are used for translation.</br>
+This is only a **small list** of Collection for llms under 14B which are used for translation.</br>
 Depends on your languages/taste/usage/content, the results & performances **may or may not** meet your expectation.</br>
 
 <details>
