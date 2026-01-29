@@ -41,6 +41,7 @@ Unless you had the knowledge.
 - [**How to choose an LLM? Online vs Local**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
   - [Local models](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/README_en.md#local-models-open-weight--open-source)
 - [**FAQ-Frequent Ask Questions**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md)
+- [**【★】Free LLM API Providers**](https://github.com/CYBIRD-D/FREE-LLM-API-Provider)
 
 </details>
 
