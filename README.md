@@ -140,7 +140,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | **★mlabonne/Qwen3-8B-abliterated** | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Qwen3-8B-abliterated-GGUF) | [Original](https://huggingface.co/mlabonne/Qwen3-8B-abliterated) |  
 | AvitoTech/avibe  (8B)</br> t-tech/T-lite-it-2.1  (8B)</br>RefalMachine/RuadaptQwen3-8B-Hybrid | **Russian⇌EN** | Qwen3 | [GGUF](https://huggingface.co/NightForger/avibe-GGUF)</br> [GGUF](https://huggingface.co/t-tech/T-lite-it-2.1-GGUF) </br> [GGUF](https://huggingface.co/RefalMachine/RuadaptQwen3-8B-Hybrid-GGUF) | [Original](https://huggingface.co/AvitoTech/avibe) </br> [Original](https://huggingface.co/t-tech/T-lite-it-2.1) </br> [Original](https://huggingface.co/RefalMachine/RuadaptQwen3-8B-Hybrid) |  
 | legmlai/legml-v1.0-8b-instruct | **French⇌EN** | Qwen3 | [GGUF](https://huggingface.co/mradermacher/legml-v1.0-8b-instruct-GGUF) | [Original](https://huggingface.co/legmlai/legml-v1.0-8b-instruct) |  
-| **★shisa-ai/shisa-v2.1-qwen3-8b** | **JP⇌EN** | Qwen3 | [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-qwen3-8b-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2.1-qwen3-8b) |  
+| **★shisa-ai/shisa-v2.1-qwen3-8b** </br> nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese  | **JP⇌EN** | Qwen3 </br> Nemotron 2 Nano | [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-qwen3-8b-GGUF) </br> [GGUF](https://huggingface.co/mmnga-o/NVIDIA-Nemotron-Nano-9B-v2-Japanese-gguf) | [Original](https://huggingface.co/shisa-ai/shisa-v2.1-qwen3-8b) </br> [Original](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese) |  
 | **★prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v2** | **EN**⇌XX | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-v2.0-GGUF) | [Original](https://huggingface.co/prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v2) | 
 | aisingapore/Qwen-SEA-LION-v4-8B-VL | **ENG+7key SEA languages**[^4] | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Qwen-SEA-LION-v4-8B-VL-GGUF) | [Original](https://huggingface.co/aisingapore/Qwen-SEA-LION-v4-8B-VL) | 
 | **★SakuraLLM/Sakura-GalTransl-7B-v3.7** | **JP⇌CHINESE** | Qwen2.5 | [GGUF](https://huggingface.co/SakuraLLM/Sakura-GalTransl-7B-v3.7) | [Original](https://huggingface.co/SakuraLLM/Sakura-GalTransl-7B-v3.7) |  
@@ -148,6 +148,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | lenML/aya-expanse-8b-abliterated | General | aya23 | [GGUF](https://huggingface.co/mradermacher/aya-expanse-8b-abliterated-GGUF) | [Original](https://huggingface.co/lenML/aya-expanse-8b-abliterated) |
 | **★Unbabel/Tower-Plus-9B** | General | Gemma2 | [GGUF](https://huggingface.co/mradermacher/Tower-Plus-9B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-9B) |
 | KORMo-Team/KORMo-10B-sft </br> LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct </br> skt/A.X-4.0-Light | **Korean⇌EN** | KORMo </br> EXAONE-3.5 </br> Qwen2.5 | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) </br> [GGUF](https://huggingface.co/mradermacher/EXAONE-3.5-7.8B-Instruct-GGUF) </br> [GGUF](https://huggingface.co/mykor/A.X-4.0-Light-gguf) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) </br> [Original](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct) </br> [Original](https://github.com/SKT-AI/A.X-4.0/tree/main) |
+
 
 ----------
 
