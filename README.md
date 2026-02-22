@@ -96,7 +96,7 @@ All models are choosen based on **community reports, downloads, likes and finetu
 | Goekdeniz-Guelmez/Josiefied-Qwen3-1.7B-abliterated-v1  | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Josiefied-Qwen3-1.7B-abliterated-v1-GGUF) | [Original](https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-1.7B-abliterated-v1) |
 | mistralai/Ministral-3-3B-Instruct-2512  | General | Mistral3 | [GGUF](https://huggingface.co/unsloth/Ministral-3-3B-Instruct-2512-GGUF) | [Original](https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512) |
 | tiiuae/Falcon-H1-1.5B-Deep-Instruct </br> tiiuae/Falcon-H1-3B-Instruct  | General | FalconH1 | [GGUF](https://huggingface.co/tiiuae/Falcon-H1-1.5B-Deep-Instruct-GGUF) </br> [GGUF](https://huggingface.co/tiiuae/Falcon-H1-3B-Instruct-GGUF) | [Original](https://huggingface.co/tiiuae/Falcon-H1-1.5B-Deep-Instruct) </br> [Original](https://huggingface.co/tiiuae/Falcon-H1-3B-Instruct) |
-
+| CohereLabs/tiny-aya series                             | General | aya | - | [Original Collection](https://huggingface.co/collections/CohereLabs/tiny-aya) |
 
 [^1]: Finetune on ENG. The same applies below.
 
