@@ -72,8 +72,8 @@ Example: **Qwen3-8B-Thinking-2507-abliterated-Q8_0-gguf**
 </details>
 
 -------
-> Note: </br>
-> 1. Quantizations since **Q5_K** and above usually no noticing quality loss.</br>
+> **Note**: </br>
+> 1. Quantizations since **`Q5_K`** and above usually no noticing quality loss.</br>
 > 2. **Larger model size** × data × compute usually means better performance (the scaling law).
 >     - For example: Qwen3-4B < Qwen3-8B < Qwen3-14B < Qwen3-32B
 > 3. Translation quality also depends on the **quality & amount of training data** on certain languages. 
