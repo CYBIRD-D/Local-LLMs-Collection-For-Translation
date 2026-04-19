@@ -28,7 +28,7 @@ Unless you had the knowledge.
 - [LLM VRAM USAGE LISTS](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md)
   - [**GGUF quantization types & relative quality**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/OtherModels_gguf.md#gguf-quantization-types--relative-quality)
 
-- [**Deploy local models**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/README_en.md#deploying-local-models)
+- [**Deploy local models**](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/tree/main#deploying-local-models)
 
 -----
 
