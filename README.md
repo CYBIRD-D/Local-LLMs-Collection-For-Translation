@@ -121,6 +121,7 @@ All models are choosen based on **community reports, downloads, likes and finetu
 | HiTZ/Latxa-Qwen3-VL-4B-Instruct | **5+**[^5] | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Latxa-Qwen3-VL-4B-Instruct-GGUF) | [Original](https://huggingface.co/HiTZ/Latxa-Qwen3-VL-4B-Instruct) | 
 | MuXodious/gemma-3n-E2B-it-absolute-heresy （5B/**CPU-optimized**)[^6]  | General | Gemma3n | [GGUF](https://huggingface.co/mradermacher/gemma-3n-E2B-it-absolute-heresy-GGUF) | [Original](https://huggingface.co/MuXodious/gemma-3n-E2B-it-absolute-heresy) |  
 
+
 [^2]: Including `Assamese, Bengali, Bodo, Dogri, Gujarati, English, Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu, Urdu`
 [^3]: This CoT is very long.
 [^4]: Including `Burmese, Indonesian, Filipino, Malay, Tamil, Thai, and Vietnamese`
@@ -136,6 +137,7 @@ New LLMs at this size ususally have a decent quality of translation.
 |---|---:|---:|---:|---:|
 | ★tiiuae/Falcon-H1-7B-Instruct </br>  | General | FalconH1 | [GGUF](https://huggingface.co/tiiuae/Falcon-H1-7B-Instruct-GGUF) | [Original](https://huggingface.co/tiiuae/Falcon-H1-7B-Instruct) |  
 | ★MuXodious/gemma-3n-E4B-it-absolute-heresy (7B/CPU-optimized) | General | Gemma3n | [GGUF](https://huggingface.co/mradermacher/gemma-3n-E4B-it-absolute-heresy-GGUF) | [Original](https://huggingface.co/MuXodious/gemma-3n-E4B-it-absolute-heresy) |  
+| ★google/gemma-4-E4B-it （8B/**CPU-optimized**)  | General | Gemma4 | [GGUF](https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF) | [Original](https://huggingface.co/google/gemma-4-E4B-it) |  
 | **★Goekdeniz-Guelmez/Josiefied-Qwen3-8B-abliterated-v1**| General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Josiefied-Qwen3-8B-abliterated-v1-GGUF) | [Original](https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-8B-abliterated-v1) |  
 | **★mlabonne/Qwen3-8B-abliterated** | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Qwen3-8B-abliterated-GGUF) | [Original](https://huggingface.co/mlabonne/Qwen3-8B-abliterated) |  
 | AvitoTech/avibe  (8B)</br> t-tech/T-lite-it-2.1  (8B)</br>RefalMachine/RuadaptQwen3-8B-Hybrid | **Russian⇌EN** | Qwen3 | [GGUF](https://huggingface.co/NightForger/avibe-GGUF)</br> [GGUF](https://huggingface.co/t-tech/T-lite-it-2.1-GGUF) </br> [GGUF](https://huggingface.co/RefalMachine/RuadaptQwen3-8B-Hybrid-GGUF) | [Original](https://huggingface.co/AvitoTech/avibe) </br> [Original](https://huggingface.co/t-tech/T-lite-it-2.1) </br> [Original](https://huggingface.co/RefalMachine/RuadaptQwen3-8B-Hybrid) |  
