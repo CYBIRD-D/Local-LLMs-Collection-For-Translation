@@ -175,7 +175,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | ★mistralai/Ministral-3-14B-Instruct-2512 | General | Ministral | [GGUF](https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF) | [Original](https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512) |
 | jenerallee78/Ministral-3-14B-abliterated | General | Ministral | [GGUF](https://huggingface.co/mradermacher/Ministral-3-14B-abliterated-GGUF) | [Original](https://huggingface.co/jenerallee78/Ministral-3-14B-abliterated) |
 | mistralai/Mistral-Nemo-Instruct-2407 | General | Mistralnemo | [GGUF](https://huggingface.co/MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF) | [Original](Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24) |
-| Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24 | **Russian⇌EN** | Mistralnemo | [GGUF](https://huggingface.co/mradermacher/Vikhr-Nemo-12B-Instruct-R-21-09-24-GGUF) | [Original](Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24) |
+| Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24 | **Russian⇌EN** | Mistralnemo | [GGUF](https://huggingface.co/mradermacher/Vikhr-Nemo-12B-Instruct-R-21-09-24-GGUF) | [Original](https://huggingface.co/Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24) |
 | **★shisa-ai/shisa-v2-mistral-nemo-12b** | **JP⇌EN** | Mistralnemo | [GGUF](https://huggingface.co/mradermacher/shisa-v2-mistral-nemo-12b-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) |
 
 
