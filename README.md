@@ -165,7 +165,7 @@ New LLMs at this size ususally have a decent quality of translation.
 | **★mlabonne/Qwen3-14B-abliterated**  | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Qwen3-14B-abliterated-GGUF) | [Original](https://huggingface.co/mlabonne/Qwen3-14B-abliterated) |  
 | NousResearch/Hermes-4-14B  | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Hermes-4-14B-GGUF) | [Original](https://huggingface.co/NousResearch/Hermes-4-14B) |  
 | Sunbird/Sunflower-14B | **Ugandan[^7]⇌EN** | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Sungur-14B-GGUF) | [Original](https://huggingface.co/Sunbird/Sunflower-14B) |  
-| suayptalha/Sungur-14B | **Turkish⇌EN** | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Sungur-14B-GGUF) | [Original](https://huggingface.co/Sunbird/Sunflower-14B) | 
+| suayptalha/Sungur-14B | **Turkish⇌EN** | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Sungur-14B-GGUF) | [Original](https://huggingface.co/suayptalha/Sungur-14B) | 
 | sugoitoolkit/Sugoi-14B-Ultra-HF | **JP⇌EN** | Qwen2.5 | [GGUF](https://huggingface.co/mradermacher/Sugoi-14B-Ultra-HF-GGUF) | [Original](https://huggingface.co/sugoitoolkit/Sugoi-14B-Ultra-HF) |
 | ★SakuraLLM/Sakura-GalTransl-14B-v3.8 | **JP⇌CHINESE** | Qwen2.5 | [GGUF](https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8) | [Original](https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8) |
 | **★google/translategemma-12b-it** | General | Gemma3 | [GGUF](https://huggingface.co/mradermacher/translategemma-12b-it-GGUF) | [Original](https://huggingface.co/google/translategemma-12b-it) |
