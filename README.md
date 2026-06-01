@@ -17,6 +17,7 @@ Models below include base/finetune of Qwen/Gemma/Mistral/Hunyuan, etc
 - Gemma
   - [Gemma 3 4B/12B](https://huggingface.co/collections/google/gemma-3-release)
   - [Gemma 3n E2B/E4B](https://huggingface.co/collections/google/gemma-3n)
+  - [Gemma 4 E2B/E4B](https://huggingface.co/collections/google/gemma-4)
 - Mistral
   - [Ministral 3B/8B/14B](https://huggingface.co/collections/mistralai/ministral-3)
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
