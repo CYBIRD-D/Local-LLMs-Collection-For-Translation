@@ -7,7 +7,7 @@ Explaination can be found here:
 
 <details>
  <summary>   
-Most models below are finetune of Qwen/Gemma/Mistral 
+Models below include base/finetune of Qwen/Gemma/Mistral/Hunyuan, etc 
 
 </summary>
 
@@ -22,6 +22,8 @@ Most models below are finetune of Qwen/Gemma/Mistral
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
 
 </details>
+
+--------
 
 ## Must Read
 Unless you had the knowledge.
@@ -44,6 +46,8 @@ Unless you had the knowledge.
 - [**【★】Free LLM API Providers**](https://github.com/CYBIRD-D/FREE-LLM-API-Provider)
 
 </details>
+
+-------
 
 ## Recommend models
 Before check the list, you need to understand some basic knowledge.
