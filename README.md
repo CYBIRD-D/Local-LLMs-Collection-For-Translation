@@ -73,6 +73,7 @@ A simple selection path:
 | BG | Bulgarian |
 | TR | Turkish |
 | SEA | Southeast Asian languages |
+| ne | Nepali |
 | **Abliterated / uncensored / heretic / amoral / evil / ara** | Safety-reduced fine-tune styles. Use with caution and test output quality yourself. |
 
 ## Essential Reading
@@ -167,6 +168,7 @@ Models are selected based on **community reports, downloads, likes, and fine-tun
 | **★google/translategemma-4b-it**    | General | Gemma3 | [GGUF](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) | [Original](https://huggingface.co/google/translategemma-4b-it) |
 | ★mlabonne/gemma-3-4b-it-abliterated-v2      | General | Gemma3 | [GGUF](https://huggingface.co/mradermacher/gemma-3-4b-it-abliterated-v2-GGUF) | [Original](https://huggingface.co/mlabonne/gemma-3-4b-it-abliterated-v2) | 
 | p-e-w/gemma-4-E2B-it-heretic-ara      | General | Gemma4 | [GGUF](https://huggingface.co/mradermacher/gemma-4-E2B-it-heretic-ara-GGUF) | [Original](https://huggingface.co/p-e-w/gemma-4-E2B-it-heretic-ara) | 
+| himalaya-ai/himalaya-gemma-4-e2b-it   | **NE ⇌ EN** | Gemma4 | [GGUF](https://huggingface.co/himalaya-ai/himalaya-gemma-4-e2b-it-gguf) | [Original](https://huggingface.co/himalaya-ai/himalaya-gemma-4-e2b-it) | 
 | ★Goekdeniz-Guelmez/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v2 | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v2-GGUF) | [Original](https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v2) | 
 | RefalMachine/RuadaptQwen3-4B-Instruct | **RU ⇌ EN** | Qwen3 | [GGUF](https://huggingface.co/RefalMachine/RuadaptQwen3-4B-Instruct-GGUF) | [Original](https://huggingface.co/RefalMachine/RuadaptQwen3-4B-Instruct) | 
 | **★SakuraLLM/GalTransl-v4-4B-2601** | **JP ⇌ ZH** | Qwen3 | [GGUF](https://huggingface.co/SakuraLLM/GalTransl-v4-4B-2601) | [Original](https://huggingface.co/SakuraLLM/GalTransl-v4-4B-2601) | 
@@ -279,6 +281,10 @@ Use this section as a second entry point if you already know your target languag
 ### French ⇌ English
 
 - legmlai/legml-v1.0-8b-instruct
+
+### Nepali ⇌ English
+
+- himalaya-ai/himalaya-gemma-4-e2b-it
 
 ### Indian Languages
 
