@@ -88,6 +88,8 @@ Read these first if you are new to local LLMs:
 - [FAQ - Frequently Asked Questions](https://github.com/CYBIRD-D/How-to-Choose-your-LLM-Model-for-translation/blob/main/FAQ_EN.md)
 - [**★Free LLM API Providers**](https://github.com/CYBIRD-D/FREE-LLM-API-Provider)
 
+[Heretic Grimoire](https://huggingface.co/spaces/heretic-org/Heretic-Grimoire) Search, filter, collect, and download reproducibility records from public Heretic model archives
+
 ## Model Families
 
 <details>
