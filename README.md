@@ -1,5 +1,7 @@
 # Local LLMs for Translation
 
+> Last updated: **2026-07-13**
+
 A curated list of local and open-weight LLMs under 14B that may be useful for translation tasks.
 
 Translation quality depends on the language pair, model size, fine-tuning data, quantization, prompt style, and the type of content being translated. The models listed here may or may not meet your expectations in every use case.
