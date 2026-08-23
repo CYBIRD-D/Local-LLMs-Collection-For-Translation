@@ -237,6 +237,18 @@ New LLMs at this size usually provide decent translation quality.
 
 --------
 
+### Moe Models (RTX-4060laptop 8G+32GB Ram+)
+
+> By offload layers to ram you can run a 30B llm (moe strucuture) at an usable speed with only 8G Vram(32G ram+)
+> You may need at least a `4060laptop/mobile 8G Vram`+ `32GB RAM` or more.
+> Depends on your token speed/gpu, 4bit(q4km)-5bit(q5km) usually have a balance between speed and perforance
+
+| Model Name | Languages | Base Model Family | Link(GGUF) | Link(Original Page) |
+|---|---:|---:|---:|---:|
+| **★SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX** | General | Qwen3.6 | [GGUF](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) | [Same](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) |
+| **★llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved** | General | Qwen3.6 | [GGUF](llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF) | [Original](https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved) |
+| **★SC117/gemma-4-26B-A4B-it-qat-heretic** | General | Gemma4 | [GGUF](https://huggingface.co/SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF) | [Same](https://huggingface.co/SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF) |
+| **★HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP** | General | Gemma4 | [GGUF](https://huggingface.co/HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP) | [Same](https://huggingface.co/HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP) |
 
 ## Language Index
 
