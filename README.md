@@ -57,6 +57,7 @@ A simple selection path:
 | 4B/5B | Vram≈4GB~6GB | Small local models/cpu |
 | 7B-10B | Vram≈6G~8G | Usually decent translation quality |
 | 12B-14B | Vram≈12G~16G | Larger local models around 14B± |
+| **MoE models** | Vram≈8G~16G | offload to cpu/ram |
 
 ## Legend
 
