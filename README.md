@@ -22,6 +22,7 @@ For more background, see [Models & Performance](https://github.com/CYBIRD-D/How-
   - [4B–5B / VRAM ≈ 4–6GB](#4b5b--vram--46gb)
   - [7B–10B / VRAM ≈ 6–8GB](#7b10b--vram--68gb)
   - [12B–14B / VRAM ≈ 12–16GB](#12b14b--vram--1216gb)
+  - [MoE Models （4060+32G RAM](#moe-models)
 - [**Model List by Language Index**](#language-index)
 - [Disclaimer](#disclaimer)
 
@@ -237,10 +238,12 @@ New LLMs at this size usually provide decent translation quality.
 
 --------
 
-### Moe Models (RTX-4060laptop 8G+32GB Ram+)
+### MoE Models
 
-> By offload layers to ram you can run a 30B llm (moe strucuture) at an usable speed with only 8G Vram(32G ram+)
-> You may need at least a `4060laptop/mobile 8G Vram`+ `32GB RAM` or more.
+> By offload layers to ram you can run a **30B llm** (moe strucuture) at an usable speed with only **8G Vram(32G ram+)**
+>
+> You may need at least a **`4060laptop/mobile 8G Vram`**+ **`32GB RAM`** or more.
+>
 > Depends on your token speed/gpu, 4bit(q4km)-5bit(q5km) usually have a balance between speed and perforance
 
 | Model Name | Languages | Base Model Family | Link(GGUF) | Link(Original Page) |
