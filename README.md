@@ -249,7 +249,8 @@ New LLMs at this size usually provide decent translation quality.
 
 > By offload layers to ram you can run a **30B llm** (moe strucuture) at an usable speed with only **8G Vram(32G ram+)**
 >
-> You may need at least a **`4060laptop/mobile 8G Vram`**+ **`32GB RAM`** or more.
+> You may need at least a **`4060laptop(mobile) 8G Vram`**+ **`32GB RAM`** or more.
+> - RTX 4060 Laptop ≤ RTX 4070 Laptop ≤ RTX 5060 Laptop ≈ RTX 3060 Desktop 12GB
 >
 > Depends on your token speed/gpu, 4bit(q4km)-5bit(q5km) usually have a balance between speed and perforance
 
