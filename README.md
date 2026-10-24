@@ -1,8 +1,8 @@
 # Local LLMs for Translation
 
-> Last updated: **2026-07-13**
+> Last updated: **2026-10-24**
 
-A curated list of local and open-weight LLMs under 14B that may be useful for translation tasks.
+A curated list of small local and open-weight LLMs, plus selected larger MoE models, that may be useful for translation tasks.
 
 Translation quality depends on the language pair, model size, fine-tuning data, quantization, prompt style, and the type of content being translated. The models listed here may or may not meet your expectations in every use case.
 
@@ -32,7 +32,7 @@ This README is a compact collection of small and mid-sized local LLMs that can b
 
 The list focuses on:
 
-- models under 14B parameters;
+- mostly models in the 1B–14B range, with selected larger MoE models;
 - models that are practical for local deployment;
 - models with GGUF availability when possible;
 - models with community attention, downloads, likes, language-specific fine-tuning, or reported translation usefulness.
@@ -109,6 +109,10 @@ Read these first if you are new to local LLMs:
 - Mistral
   - [Ministral 3B/8B/14B](https://huggingface.co/collections/mistralai/ministral-3)
   - [Mistral Nemo 12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
+- Index Team (Bilibili)
+  - [Index-Translate 2B / 9B / 35B-A3B preview](https://huggingface.co/collections/IndexTeam/index-translate)
+- Liquid AI
+  - [LFM2.5-24B-A2B](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B)
 
 </details>
 
@@ -152,6 +156,7 @@ Models are selected based on **community reports, downloads, likes, and fine-tun
 | shisa-ai/shisa-v2.1-lfm2-1.2b <br> shisa-ai/shisa-v2.1-llama3.2-3b <br> LiquidAI/LFM2.5-1.2B-JP-202606 | **JP ⇌ EN** | LFM2 <br> Llama3.2 <br> LFM2.5 | [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-lfm2-1.2b-GGUF) <br> [GGUF](https://huggingface.co/mradermacher/shisa-v2.1-llama3.2-3b-GGUF) <br> [GGUF](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF) | [Original](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b) <br> [Original](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b) <br> [Original](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606) |
 | LGAI-EXAONE/EXAONE-4.0-1.2B                       | **ES ⇌ EN ⇌ KO** | EXAONE4.0 | [GGUF](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF) | [Original](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B) |
 | tencent/HY-MT1.5-1.8B <br>  **★tencent/HY-MT2-1.8B**         | General multilingual <br> (33 languages) | HY-MT1.5 <br> HY-MT2 | [GGUF](https://huggingface.co/mradermacher/HY-MT1.5-1.8B-GGUF) <br> [GGUF](https://huggingface.co/mradermacher/Hy-MT2-1.8B-GGUF) | [Original](https://huggingface.co/tencent/HY-MT1.5-1.8B) <br> [Original](https://huggingface.co/tencent/Hy-MT2-1.8B) |
+| IndexTeam/Index-Translate-2B | General multilingual (150 languages; translation-specialized) | Qwen3.5 | [GGUF](https://huggingface.co/IndexTeam/Index-Translate-2B-GGUF) | [Original](https://huggingface.co/IndexTeam/Index-Translate-2B) |
 | Unbabel/Tower-Plus-2B                             | General | Gemma2 | [GGUF](https://huggingface.co/DZgas/Tower-Plus-2B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-2B) |
 | prithivMLmods/Qwen3-VL-2B-Instruct-abliterated-v1 | **EN ⇌ XX** [^1] | Qwen3VL | [GGUF](https://huggingface.co/mradermacher/Qwen3-VL-2B-Instruct-abliterated-GGUF) | [Original](https://huggingface.co/prithivMLmods/Qwen3-VL-2B-Instruct-abliterated-v1) |
 | Goekdeniz-Guelmez/Josiefied-Qwen3-1.7B-abliterated-v1  | General | Qwen3 | [GGUF](https://huggingface.co/mradermacher/Josiefied-Qwen3-1.7B-abliterated-v1-GGUF) | [Original](https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-1.7B-abliterated-v1) |
@@ -207,6 +212,7 @@ New LLMs at this size usually provide decent translation quality.
 | **★SakuraLLM/Sakura-GalTransl-7B-v3.7** | **JP ⇌ ZH** | Qwen2.5 | [GGUF](https://huggingface.co/SakuraLLM/Sakura-GalTransl-7B-v3.7) | [Original](https://huggingface.co/SakuraLLM/Sakura-GalTransl-7B-v3.7) |  
 | ★mistralai/Ministral-3-8B-Instruct-2512 | General | Ministral3 | [GGUF](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF) | [Original](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512) | 
 | lenML/aya-expanse-8b-abliterated | General | aya23 | [GGUF](https://huggingface.co/mradermacher/aya-expanse-8b-abliterated-GGUF) | [Original](https://huggingface.co/lenML/aya-expanse-8b-abliterated) |
+| IndexTeam/Index-Translate-9B | General multilingual (150 languages; translation-specialized) | Qwen3.5 | [GGUF](https://huggingface.co/IndexTeam/Index-Translate-9B-GGUF) | [Original](https://huggingface.co/IndexTeam/Index-Translate-9B) |
 | ★Unbabel/Tower-Plus-9B | General | Gemma2 | [GGUF](https://huggingface.co/mradermacher/Tower-Plus-9B-GGUF) | [Original](https://huggingface.co/Unbabel/Tower-Plus-9B) |
 | KORMo-Team/KORMo-10B-sft <br> LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct <br> skt/A.X-4.0-Light | **KO ⇌ EN** | KORMo <br> EXAONE-3.5 <br> Qwen2.5 | [GGUF](https://huggingface.co/mradermacher/KORMo-10B-sft-GGUF) <br> [GGUF](https://huggingface.co/mradermacher/EXAONE-3.5-7.8B-Instruct-GGUF) <br> [GGUF](https://huggingface.co/mykor/A.X-4.0-Light-gguf) | [Original](https://huggingface.co/KORMo-Team/KORMo-10B-sft) <br> [Original](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct) <br> [Original](https://huggingface.co/skt/A.X-4.0-Light) |
 
@@ -249,6 +255,8 @@ New LLMs at this size usually provide decent translation quality.
 
 | Model Name | Languages | Base Model Family | Link(GGUF) | Link(Original Page) |
 |---|---:|---:|---:|---:|
+| LiquidAI/LFM2.5-24B-A2B (24B total / 2.45B active; reasoning model) | General multilingual (16 languages; not translation-specialized) | LFM2.5 | [GGUF](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF) | [Original](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B) |
+| IndexTeam/Index-Translate-35B-A3B-preview (35B total / ~3B active) | General multilingual (150 languages; translation-specialized) | Qwen3.5 MoE | [GGUF](https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview-GGUF) | [Original](https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview) |
 | **★SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX** | General | Qwen3.6 | [GGUF](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) | [Same](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) |
 | **★llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved** | General | Qwen3.6 | [GGUF](llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF) | [Original](https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved) |
 | **★SC117/gemma-4-26B-A4B-it-qat-heretic** | General | Gemma4 | [GGUF](https://huggingface.co/SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF) | [Same](https://huggingface.co/SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF) |
@@ -257,6 +265,14 @@ New LLMs at this size usually provide decent translation quality.
 ## Language Index
 
 Use this section as a second entry point if you already know your target language pair.
+
+### General multilingual translation (150 languages)
+
+- IndexTeam/Index-Translate-2B
+- IndexTeam/Index-Translate-9B
+- IndexTeam/Index-Translate-35B-A3B-preview
+
+LFM2.5-24B-A2B supports 16 languages, but is a general-purpose reasoning model rather than a translation-specialized model; verify translation quality for your language pair.
 
 ### Japanese ⇌ Chinese
 
