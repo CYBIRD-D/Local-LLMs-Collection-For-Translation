@@ -255,7 +255,7 @@ New LLMs at this size usually provide decent translation quality.
 
 | Model Name | Languages | Base Model Family | Link(GGUF) | Link(Original Page) |
 |---|---:|---:|---:|---:|
-| LiquidAI/LFM2.5-24B-A2B (24B total / 2.45B active; reasoning model) | General multilingual (16 languages; not translation-specialized) | LFM2.5 | [GGUF](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF) | [Original](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B) |
+| LiquidAI/LFM2.5-24B-A2B (24B total / 2.45B active; reasoning model) | General multilingual (16 languages) | LFM2.5 | [GGUF](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF) | [Original](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B) |
 | IndexTeam/Index-Translate-35B-A3B-preview (35B total / ~3B active) | General multilingual (150 languages; translation-specialized) | Qwen3.5 MoE | [GGUF](https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview-GGUF) | [Original](https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview) |
 | **★SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX** | General | Qwen3.6 | [GGUF](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) | [Same](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) |
 | **★llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved** | General | Qwen3.6 | [GGUF](llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF) | [Original](https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved) |
