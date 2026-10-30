@@ -1,6 +1,6 @@
 # Local LLMs for Translation
 
-> Last updated: **2026-10-24**
+> Last updated: **2026-10-30**
 
 A curated list of small local and open-weight LLMs, plus selected larger MoE models, that may be useful for translation tasks.
 
@@ -113,6 +113,8 @@ Read these first if you are new to local LLMs:
   - [Index-Translate 2B / 9B / 35B-A3B preview](https://huggingface.co/collections/IndexTeam/index-translate)
 - Liquid AI
   - [LFM2.5-24B-A2B](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B)
+- Tencent Hunyuan
+  - [Hy-MT2 1.8B / 7B / 30B-A3B](https://github.com/Tencent-Hunyuan/Hy-MT2)
 
 </details>
 
@@ -258,6 +260,7 @@ New LLMs at this size usually provide decent translation quality.
 |---|---:|---:|---:|---:|
 | LiquidAI/LFM2.5-24B-A2B (24B total / 2.45B active; reasoning model) | General multilingual (16 languages) | LFM2.5 | [GGUF](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF) | [Original](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B) |
 | IndexTeam/Index-Translate-35B-A3B-preview (35B total / ~3B active) | General multilingual (150 languages; translation-specialized) | Qwen3.5 MoE | [GGUF](https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview-GGUF) | [Original](https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview) |
+| tencent/Hy-MT2-30B-A3B (30B total / 3B active; translation-specialized) | General multilingual (33 languages) | Hy-MT2 MoE | [Official GGUF](https://huggingface.co/tencent/Hy-MT2-30B-A3B-GGUF) | [Original](https://huggingface.co/tencent/Hy-MT2-30B-A3B) |
 | **★SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX** | General | Qwen3.6 | [GGUF](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) | [Same](https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF) |
 | **★llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved** | General | Qwen3.6 | [GGUF](llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF) | [Original](https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved) |
 | **★SC117/gemma-4-26B-A4B-it-qat-heretic** | General | Gemma4 | [GGUF](https://huggingface.co/SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF) | [Same](https://huggingface.co/SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF) |
@@ -272,6 +275,12 @@ Use this section as a second entry point if you already know your target languag
 - IndexTeam/Index-Translate-2B
 - IndexTeam/Index-Translate-9B
 - IndexTeam/Index-Translate-35B-A3B-preview
+
+### General multilingual translation (33 languages)
+
+- tencent/Hy-MT2-1.8B
+- tencent/Hy-MT2-7B
+- tencent/Hy-MT2-30B-A3B
 
 LFM2.5-24B-A2B supports 16 languages, but is a general-purpose reasoning model rather than a translation-specialized model; verify translation quality for your language pair.
 
